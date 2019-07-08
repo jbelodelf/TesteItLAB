@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Teste.ItLAB.WebAplication.Models.ProdutoViewModel>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr class="bg-secondary">
+            <th>
+                @Html.DisplayNameFor(model => model.NOME)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDTIPO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DTFABRICACAO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VALOR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DATACADASTRO)
+            </th>
+            <th>Opção</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NOME)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoProduto.NOME)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DTFABRICACAO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VALOR, new { @class = "valor" })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DATACADASTRO)
+            </td>
+            <td>
+                <a href="javascript:;" onclick="Produto.Editar(@item.ID)" title="Editar produto"><i class="fas fa-edit"></i></a>
+                <a href="javascript:;" onclick="Produto.Delete(@item.ID)" title="Excluir produto"><i class="fas fa-trash"></i></a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,117 @@
+﻿@section Scripts
+    {
+    <script src="~/js/Produto/Produto.js" asp-append-version="true"></script>
+}
+
+<style type="text/css">
+    .btRight {
+        text-align: right;
+    }
+
+    .Top {
+        text-align: center;
+    }
+</style>
+
+<div id="mensagemPagina" name="mensagemPagina" style="display: none; background-color: #ff2d296b; text-align:center; height: 40px; padding-top: 5px; font-size: 20px;"><b>mensagem</b></div>
+<div class="Top">
+    <h1>LISTAGEM DE PRODUTOS</h1>
+</div>
+
+</p>
+<div class="container-fluid btRight">
+    <a class="btn btn-primary" id="btNovo"><i class="fas fa-plus-circle"></i> Novo</a>
+</div>
+<div class="container-fluid" id="dvListarProdutos">
+</div>
+
+<!-- Modal para cadastrar cliente -->
+<div class="modal fade" id="ModalCadastrarProduto" tabindex="-1" role="dialog" aria-labelledby="fatorFModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog border-dark">
+        <div class="modal-content" style="width: 200%; margin-left: -50%;">
+            <!-- Modal Header -->
+            <div id="mensagemModal" name="mensagem" style="display: none; background-color: #ff2d296b; text-align:center; height: 40px; padding-top: 5px; font-size: 20px;"><b>mensagem</b></div>
+
+            <div class="modal-header">
+                <div class="col-md-11">
+                    <h3 class="modal-title">Cadastrar produto</h3>
+                </div>
+                <div class="col-md-1">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+            <!-- Modal body -->
+            <!--------------------------------------------------->
+
+            <input type="hidden" id="IdProduto" value="" />
+            <input type="hidden" id="DATACADASTRO" value="" />
+
+            <fieldset>
+                <legend>@ViewBag.Title</legend>
+                <div class="form-horizontal">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group row col-md-12">
+                        <div class="form-group col-md-6">
+                            <Label class="control-label col-md-12">Nomo do produto:*</Label>
+                            <div class="col-md-12">
+                                <input type="text" id="Nome" name="Nome" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <Label class="control-label col-md-12">Tipo produto:*</Label>
+                            <div class="col-md-12">
+                                @Html.DropDownList("Tipo", new SelectList(ViewBag.ComboTipos, "Value", "Text"), "--- Selecione ---", new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <Label class="control-label col-md-12">Data de fabricação:*</Label>
+                            <div class="col-md-12">
+                                <input type="date" id="DataFabricacao" name="DataFabricacao" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <Label class="control-label col-md-3">Valor:*</Label>
+                            <div class="col-md-12">
+                                <input type="text" id="Valor" name="Valor" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <Label class="control-label col-md-3">Disponível:*</Label>
+                            <div class="col-md-12">
+                                <input type="radio" name="rdDisponivel" value="1"> Sim<br />
+                                <input type="radio" name="rdDisponivel" value="0"> Não
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <Label class="control-label col-md-12">Atendemos as regiões:</Label>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="cbNorte" value="S"> Note<br />
+                                <input type="checkbox" name="cbSul" value="S"> Sul<br />
+                                <input type="checkbox" name="cbLeste" value="S"> Leste<br />
+                                <input type="checkbox" name="cbOeste" value="S"> Oeste
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </fieldset>
+
+            <!--------------------------------------------------->
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <div class="col-md-12" style="text-align: right;">
+                    <button id="btnFecharProduto" type="button" class="btn btn-danger">&nbsp;&nbsp;&nbsp;Fechar&nbsp;&nbsp;&nbsp;</button>
+                    <button id="btnSalvarProduto" type="button" class="btn btn-outline-success">&nbsp;&nbsp;&nbsp;Salvar&nbsp;&nbsp;&nbsp;</button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
