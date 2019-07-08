@@ -10342,11 +10342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.TDD\\Teste.ItLAB.TDD.csproj",
+      "projectUniqueName": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.TDD\\Teste.ItLAB.TDD.csproj",
       "projectName": "Teste.ItLAB.TDD",
-      "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.TDD\\Teste.ItLAB.TDD.csproj",
+      "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.TDD\\Teste.ItLAB.TDD.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.TDD\\obj\\",
+      "outputPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.TDD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -10367,17 +10367,17 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Bussines\\Teste.ItLAB.Bussines.csproj": {
-              "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Bussines\\Teste.ItLAB.Bussines.csproj"
+            "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Bussines\\Teste.ItLAB.Bussines.csproj": {
+              "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Bussines\\Teste.ItLAB.Bussines.csproj"
             },
-            "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj": {
-              "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj"
+            "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj": {
+              "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj"
             },
-            "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj": {
-              "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj"
+            "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj": {
+              "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj"
             },
-            "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.WebAplication\\Teste.ItLAB.WebAplication.csproj": {
-              "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.WebAplication\\Teste.ItLAB.WebAplication.csproj"
+            "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.WebAplication\\Teste.ItLAB.WebAplication.csproj": {
+              "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.WebAplication\\Teste.ItLAB.WebAplication.csproj"
             }
           }
         }

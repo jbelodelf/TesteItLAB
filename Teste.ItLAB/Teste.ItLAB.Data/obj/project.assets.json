@@ -3495,11 +3495,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj",
+      "projectUniqueName": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj",
       "projectName": "Teste.ItLAB.Data",
-      "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj",
+      "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Data\\obj\\",
+      "outputPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -3520,8 +3520,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj": {
-              "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj"
+            "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj": {
+              "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj"
             }
           }
         }

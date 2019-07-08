@@ -3666,11 +3666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Bussines\\Teste.ItLAB.Bussines.csproj",
+      "projectUniqueName": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Bussines\\Teste.ItLAB.Bussines.csproj",
       "projectName": "Teste.ItLAB.Bussines",
-      "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Bussines\\Teste.ItLAB.Bussines.csproj",
+      "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Bussines\\Teste.ItLAB.Bussines.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Bussines\\obj\\",
+      "outputPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Bussines\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -3691,11 +3691,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj": {
-              "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj"
+            "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj": {
+              "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Data\\Teste.ItLAB.Data.csproj"
             },
-            "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj": {
-              "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj"
+            "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj": {
+              "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj"
             }
           }
         }

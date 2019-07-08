@@ -2973,11 +2973,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj",
+      "projectUniqueName": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj",
       "projectName": "Teste.ItLAB.Model",
-      "projectPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj",
+      "projectPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Model\\Teste.ItLAB.Model.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos_Gerais\\Teste.ItLAB\\Teste.ItLAB.Model\\obj\\",
+      "outputPath": "F:\\Projetos_Gerais\\GitHub\\TesteItLAB\\Teste.ItLAB\\Teste.ItLAB.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
