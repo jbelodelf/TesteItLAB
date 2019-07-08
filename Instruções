@@ -1,5 +1,6 @@
-# O projeto foi desenvolvido para realizar CRUD m uma entidade PRODUTO.
-Struturado em camadas:
+# O projeto foi desenvolvido para realizar CRUD em uma entidade PRODUTO.
+
+Estruturado em camadas:
 0-Camada de Web:
   Contem o projeto de Web.
 1-Camada de Bussines:
