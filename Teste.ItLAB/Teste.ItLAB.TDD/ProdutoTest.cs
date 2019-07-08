@@ -1,43 +1,20 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using NSubstitute;
 using Teste.ItLAB.Bussines.Interface;
-using Teste.ItLAB.Bussines.Repositories;
-using Teste.ItLAB.Data;
-using Teste.ItLAB.Data.Repositories;
-using Teste.ItLAB.Model.Dtos;
-using Teste.ItLAB.Model.Interfaces;
-using Teste.ItLAB.WebAplication.Controllers;
 using Xunit;
 
 namespace Teste.ItLAB.TDD
 {
     public class ProdutoTest
     {
-        private readonly DbContextOptionsBuilder<ContextAplication> _OptionsBuider;
-        private readonly ContextAplication _context;
-        private readonly IProdutoRepository _produtoRepository;
-        private readonly IProdutoBussines _produtoBussines;
-        private readonly ProdutoController _controller;
+        private readonly IProdutoBussines _mock;
 
         public ProdutoTest()
         {
-            _OptionsBuider = new DbContextOptionsBuilder<ContextAplication>();
-            _context = new ContextAplication(_OptionsBuider.Options);
-            _produtoRepository = new ProdutoRepository(_context);
-            _produtoBussines = new ProdutoBussinesRepository(_produtoRepository);
-            //_controller = new ProdutoController();
-        }
-
-        [Fact]
-        public void Test1()
-        {
-
+            _mock = Substitute.For<IProdutoBussines>();
         }
 
         //[Fact]
-        //public async void Task_AddProduto_Valido_Retorn_OkResult()
+        //public void AddProduto_Valido_Retorn_OkResult()
         //{
         //    //var produtoMock = new Mock<IProdutoBussines>();
         //    //Arrange
@@ -52,14 +29,14 @@ namespace Teste.ItLAB.TDD
         //    };
 
         //    // Act
-        //    var data = _produtoBussines.AddProduto(produto);
+        //    var data = _mock.AddProduto(produto);
 
         //    //Assert
         //    Assert.True(data);
         //}
 
         //[Fact]
-        //public async void Task_PostProuto_Invalido_Retorn_BadRequest()
+        //public void PostProuto_Invalido_Retorn_BadRequest()
         //{
         //    //Arrange
         //    ProdutoDTO produto = new ProdutoDTO()
@@ -73,14 +50,14 @@ namespace Teste.ItLAB.TDD
         //    };
 
         //    // Act
-        //    var data = await _controller.Post(ProdutoDTO);
+        //    var data = _mock.Post(ProdutoDTO);
 
         //    //Assert
-        //    Assert.IsType<BadRequestResult>(data);
+        //    Assert.True(data);
         //}
 
         //[Fact]
-        //public async void Task_PutProuto_Valido_Retorna_OkResult()
+        //public async void PutProuto_Valido_Retorna_OkResult()
         //{
         //    //Arrange
         //    var IdProduto = 1;
@@ -95,17 +72,17 @@ namespace Teste.ItLAB.TDD
         //    };
 
         //    // Act
-        //    var produto = await _controller.Get(IdProduto);
+        //    var produto = _mock.Get(IdProduto);
         //    var okResult = produto.Should().BeOfType<OkObjectResult>().Subject;
         //    var result = okResult.Value.Should().BeAssignableTo<ProdutoDTO>().Subject;
 
         //    produto.Nome = "";
         //    produto.VALOR = 150;
 
-        //    var updatedData = await _controller.Put(produto);
+        //    var updatedData = _mock.Put(produto);
 
         //    //Assert
-        //    Assert.IsType<BadRequestResult>(updatedProduto);
+        //    Assert.True(data);
         //}
 
         //[Fact]

@@ -11,7 +11,7 @@ namespace Teste.ItLAB.Data.Repositories.Base
 {
     public class RepositoryBase<T> : IDisposable, IRepositoryBase<T> where T : class
     {
-        private readonly DbContextOptionsBuilder<ContextAplication> _OptionsBuider;
+        //private readonly DbContextOptionsBuilder<ContextAplication> _OptionsBuider;
         private readonly ContextAplication _context;
         private readonly DbSet<T> _dbSet;
 
