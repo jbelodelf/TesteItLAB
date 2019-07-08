@@ -1,0 +1,12 @@
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\bin\Debug\netcoreapp2.2\Teste.ItLAB.Data.deps.json
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\bin\Debug\netcoreapp2.2\Teste.ItLAB.Data.dll
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\bin\Debug\netcoreapp2.2\Teste.ItLAB.Data.pdb
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\bin\Debug\netcoreapp2.2\Teste.ItLAB.Model.dll
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\bin\Debug\netcoreapp2.2\Teste.ItLAB.Model.pdb
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\obj\Debug\netcoreapp2.2\Teste.ItLAB.Data.csprojAssemblyReference.cache
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\obj\Debug\netcoreapp2.2\Teste.ItLAB.Data.csproj.CoreCompileInputs.cache
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\obj\Debug\netcoreapp2.2\Teste.ItLAB.Data.AssemblyInfoInputs.cache
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\obj\Debug\netcoreapp2.2\Teste.ItLAB.Data.AssemblyInfo.cs
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\obj\Debug\netcoreapp2.2\Teste.ItLAB.Data.csproj.CopyComplete
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\obj\Debug\netcoreapp2.2\Teste.ItLAB.Data.dll
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Data\obj\Debug\netcoreapp2.2\Teste.ItLAB.Data.pdb

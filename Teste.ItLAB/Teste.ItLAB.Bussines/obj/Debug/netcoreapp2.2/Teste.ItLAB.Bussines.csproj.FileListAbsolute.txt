@@ -1,0 +1,14 @@
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\bin\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.deps.json
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\bin\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.dll
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\bin\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.pdb
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\bin\Debug\netcoreapp2.2\Teste.ItLAB.Data.dll
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\bin\Debug\netcoreapp2.2\Teste.ItLAB.Model.dll
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\bin\Debug\netcoreapp2.2\Teste.ItLAB.Data.pdb
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\bin\Debug\netcoreapp2.2\Teste.ItLAB.Model.pdb
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\obj\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.csprojAssemblyReference.cache
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\obj\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.csproj.CoreCompileInputs.cache
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\obj\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.AssemblyInfoInputs.cache
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\obj\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.AssemblyInfo.cs
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\obj\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.csproj.CopyComplete
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\obj\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.dll
+F:\Projetos_Gerais\GitHub\TesteItLAB\Teste.ItLAB\Teste.ItLAB.Bussines\obj\Debug\netcoreapp2.2\Teste.ItLAB.Bussines.pdb
